@@ -4,9 +4,12 @@
   "description": "Following A Node.js course by Microsoft",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "Raúl R. Pearson <raulrpearson@protonmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
 }
