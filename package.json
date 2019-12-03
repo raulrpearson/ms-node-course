@@ -1,0 +1,12 @@
+{
+  "name": "node-sample",
+  "version": "0.1.0",
+  "description": "Following A Node.js course by Microsoft",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Raúl R. Pearson <raulrpearson@protonmail.com>",
+  "license": "ISC"
+}
