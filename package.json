@@ -1,7 +1,7 @@
 {
-  "name": "node-sample",
+  "name": "ms-node-course",
   "version": "0.1.0",
-  "description": "Following A Node.js course by Microsoft",
+  "description": "Building Functional Prototypes using Node.js",
   "private": true,
   "scripts": {
     "dev": "nodemon server.js"
