@@ -1,8 +1,10 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+const sqlite3 = require("sqlite3");
 
 const port = 3000;
 const app = express();
+const db = new sqlite3.Database("quotes.db");
 
 app.listen(port, () => console.log(`Express app listening on port ${port}...`));
 app.use(bodyParser.urlencoded({ extended: true }));
